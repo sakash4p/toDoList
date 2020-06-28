@@ -10,7 +10,8 @@ render(){
                 return <li key={x.key}>                
                 <label>{x.val}</label>
                 <button onClick={()=>editEvnt(x.key)}>edit</button>
-                <button onClick={()=>deleteEvnt(x.key)}>delete</button>                
+                <button onClick={()=>deleteEvnt(x.key)}>delete</button>    
+                hello            
                 </li>
             })
         }
